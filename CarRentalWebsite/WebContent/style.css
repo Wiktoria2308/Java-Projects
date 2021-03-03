@@ -1,0 +1,344 @@
+.imagecontainer {
+
+    position: relative;
+}
+
+.floatingtag {
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    color: white;
+    font-weight: bold ;
+    padding : 10px ;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.floatingtag2 {
+    float: center;
+    position: absolute;
+    left : 500px ;
+    top: 100px;
+    color: white;
+    font-weight: bold ;
+    padding : 10px ;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.floatingtag3 {
+    float: left;
+    position: absolute;
+    left : 170px ;
+    top: 100px;
+    color: white;
+    font-weight: bold ;
+    padding : 5px ;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.floatingtag4 {
+    float: center;
+    position: absolute;
+    left : 50px ;
+    top: 100px;
+    color: white;
+    font-weight: bold ;
+    padding : 5px ;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.resizedTextbox {
+  width: 300px;
+  height: 30px ;
+}
+
+.btn {
+  width: 100px;
+  height: 60px ;
+
+ }
+
+ .resizedTextbox2 {
+   width: 200px;
+   height: 20px ;
+ }
+ 
+ .sideBar {
+  height: 97%; 
+  width: 160px;
+  position: absolute; 
+  top: 0 ; 
+  left: 0;
+  background-color: #333;
+  padding-top: 20px;
+ 
+ }
+
+.sideBar a {
+  padding: 16px ;
+  color: white;
+  display : block ;
+  text-decoration: none;
+
+ }
+ 
+.sideBar a:hover {
+  background-color: #000000;
+}
+
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position :sticky ;
+  top: 0;
+}
+
+.header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  float: right;
+}
+
+
+.header a:hover {
+  background-color: #000000;
+}
+
+ .sideBar2 {
+  height: 72%; 
+  width: 160px;
+  position: absolute; 
+  top: 65 ; 
+  left: 8;
+  background-color: #333;
+  padding-top: 20px;
+ 
+ }
+
+.sideBar2 a {
+  padding: 10px ;
+  color: white;
+  display : block ;
+  text-decoration: none;
+
+ }
+ 
+.sideBar2 a:hover {
+  background-color: #000000;
+}
+
+.sideBar3 {
+  height: 100%; 
+  width: 160px;
+  position: absolute; 
+  top: 60px; 
+  left: 8;
+  background-color: #333;
+  padding-top: 20px;
+ 
+ }
+
+.sideBar3 a {
+  padding: 10px ;
+  color: white;
+  display : block ;
+  text-decoration: none;
+
+ }
+ 
+.sideBar3 a:hover {
+  background-color: #000000;
+}
+
+.cars {
+  margin-top: 100px;
+  margin-left : 200px ;
+}
+
+.car{
+  margin-top: 20px;
+  background-color: rgb(210, 236, 245);
+  width: 600px;
+  margin-left: 100px;
+  height: 200px;
+  
+}
+
+.CustomerInfo{
+	 margin-left :275px ;
+	 width : 600px ;
+	 padding : 20px ;
+}
+#cover {
+  background-color: rgb(226, 226, 226);
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#con {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#cover-caption {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+/* only used for background overlay not needed for centering */
+#regi:before {
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.6);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+#cover2 {
+  background: #222 url(https://my344209.crm.ondemand.com/sap/public/ap/ui/repository/SAP_BYD_UI_FLEX/IMAGES/Company_Background_Login_Image.png?20190227165200.7125940) center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+}
+
+#cover-caption2 {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* only used for background overlay not needed for centering */
+#login:before {
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.1);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+#con2 {
+  margin-bottom: 150px;
+}
+.form-group {
+  padding-bottom: 8px;
+}
+
+.imagecontainer {
+
+    position: relative;
+}
+
+.floatingtag {
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    color: white;
+    font-weight: bold ;
+    padding : 10px ;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.floatingtag2 {
+    float: center;
+    position: absolute;
+    left : 400px ;
+    top: 100px;
+    color: white;
+    font-weight: bold ;
+    padding : 10px ;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.resizedTextbox {
+  width: 300px;
+  height: 30px ;
+}
+
+.btn {
+  width: 120px;
+  height: 50px ;
+  background-color: rgb(148, 223, 241);
+  margin-left: 30px;
+ }
+
+ .resizedTextbox2 {
+   width: 200px;
+   height: 20px ;
+ }
+ 
+.sideBar {
+  height: 97%; 
+  width: 180px;
+  position: absolute; 
+  z-index: 1; 
+  top: 0 ; 
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden; 
+  padding-top: 20px;
+ 
+ }
+
+.sideBar a {
+  padding: 32px 16px 0px 16px;
+  text-decoration: none;
+  color: white;
+  display : block ;
+  
+ 
+ }
+ 
+.sideBar a:hover {
+  background-color: #000000;
+}
+
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position :sticky ;
+  top: 0;
+}
+
+.header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+   float: right;
+}
+
+
+.header a:hover {
+  background-color: #000000;
+}

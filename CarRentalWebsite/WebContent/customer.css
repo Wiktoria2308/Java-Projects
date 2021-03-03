@@ -1,0 +1,36 @@
+#cover {
+  background-color: rgb(226, 226, 226);
+  background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  #cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  /* only used for background overlay not needed for centering */
+  #regi:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.6);
+    z-index: -1;
+    border-radius: 10px;
+  }
+  #con {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+      margin-left: 120px;
+  }
+  #prof {
+    margin-left: 75px;
+  }

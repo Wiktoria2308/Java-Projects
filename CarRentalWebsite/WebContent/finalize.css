@@ -1,0 +1,138 @@
+.sideBar3 {
+  height: 100%; 
+  width: 160px;
+  position: absolute; 
+  top: 60px; 
+  left: 8;
+  background-color: #333;
+  padding-top: 20px;
+ 
+ }
+
+.sideBar3 a {
+  padding: 10px ;
+  color: white;
+  display : block ;
+  text-decoration: none;
+
+ }
+ 
+.sideBar3 a:hover {
+  background-color: #000000;
+}
+
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position :sticky ;
+  top: 0;
+}
+
+.header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+   float: right;
+}
+
+
+.header a:hover {
+  background-color: #000000;
+}
+
+#carIMG {
+  height: 100px;
+}
+.icons img {
+  height: 16px;
+}
+.icons p {
+  padding-right: 15px;
+}
+.icons img, p{
+  padding-right: 6px;
+}
+.icons {
+  margin-top: -15px;
+  margin-left: 15px;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  
+  
+}
+
+.CustomerInfo{
+	
+	 margin-left :280px ;
+	 width : 600px ;
+	 padding : 20px ;
+}
+
+.car{
+  margin-top: 60px;
+  background-color: rgb(210, 236, 245);
+  width: 600px;
+  margin-left: 300px;
+  height: 250px;
+  
+}
+#carName {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#carImage {
+  margin-left: 30px;
+  margin-top: -10px;
+  
+}
+.priceButton {
+  border-top: 1px solid grey;
+  padding-left: 15px;
+ 
+  display: flex;
+  width: 97,5%;
+ padding-bottom: 5px;
+}
+.priceButton h2 {
+	margin-top: 17px;
+}
+.bookingContainer {
+	
+	margin-top: -260px;
+	margin-left: 330px;
+}
+.bookingDetails {
+	display: flex;
+	margin-top : -30px;
+}
+.bookingDetails h4 {
+	margin-right : 10px;
+}
+.bookingDetails p {
+	margin-top: 22px;
+}
+
+.newbtn{
+ font-size: 14px;
+ padding: 7px;
+ border-radius: 12px;
+ background-color: rgb(210, 236, 245);
+ margin-left: 12px;
+ margin-bottom:15px;
+ margin-top: 10px;	
+ width: 100px;
+}
+	
+input {
+	margin-top : 5px;
+	width: 200px;
+}
+#name {
+	padding-left : 15px;
+}

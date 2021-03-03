@@ -1,0 +1,318 @@
+body {
+  display: flex;
+  background-color: rgb(226, 226, 226);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn {
+  background-color: #eee;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.cars {
+  margin-top: 100px;
+}
+.filterBar {
+  margin-left: 250px;
+  margin-top: 120px;
+  background-color: rgba(255, 255, 255);
+  width: 300px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  height: 850px;
+}
+.doors {
+  margin-bottom: 33px;
+}
+.radioButtons {
+  margin-bottom: 33px;
+}
+.selectCar {
+  margin-bottom: 33px;
+}
+.luggage {
+  margin-bottom: 33px;
+}
+.seats {
+  margin-bottom: 33px;
+}
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  .select-selected {
+    background-color: #eee;
+  }
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-color: dodgerblue transparent transparent transparent;
+  }
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent black transparent;
+    top: 7px;
+  }
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: #eee;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  /* style for radio button*/
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+  /* style for radio button*/
+/* The container */
+.con {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.con input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+/* On mouse-over, add a grey background color */
+.con:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.con input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.con input:checked ~ .checkmark:after {
+  display: flex;
+}
+/* Style the checkmark/indicator */
+.con .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.car{
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  margin-left: 50px;
+  height: 200px;
+}
+#carType {
+  color: dodgerblue;
+  padding-left: 35px;
+  font-weight: bold;
+  margin-top: 18px;
+  font-size: 14px;
+}
+#carName {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#carImage {
+  margin-left: 420px;
+  margin-top: -50px;
+}
+.icons {
+  margin-top: -15px;
+  margin-left: 15px;
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+.icons img, p{
+  padding-right: 6px;
+}
+.priceButton {
+  border-top: 1px solid grey;
+  padding-left: 15px;
+  margin-top: -35px;
+  display: flex;
+  width: 65%;
+ padding-bottom: 5px;
+}
+button{
+  padding: 8px;
+  font-size: 15px;
+  width: 100px;
+}
+.priceButton h2{
+  padding-right: 30px;
+  padding-top: -8px;
+  margin-bottom: -15px;
+}
+.icons img {
+  height: 16px;
+}
+.icons p {
+  padding-right: 15px;
+}
+#carIMG {
+  height: 100px;
+}
+
+.topNav {
+   float: right;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width :100% ;
+   padding : 10px ;
+}
+.bottomLine {
+   float: right;
+   left: 0px;
+   width :100% ;
+   padding : 0px ;
+   position:fixed;
+   bottom: 0px ;
+}
+.mainHeader {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position :sticky ;
+  top: 0;
+}
+.mainHeader a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  float: right;
+}
+.mainHeader a:hover {
+  background-color: #000000;
+}
+.sideBar2 {
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  top: 60px ;
+  left: 10px;
+  bottom: 0px;
+  background-color: #333;
+  padding-top: 20px;
+ }
+.sideBar2 a {
+  padding: 10px ;
+  color: white;
+  display : block ;
+  text-decoration: none;
+ list-style-type: none;
+ }
+.sideBar2 a:hover {
+  background-color: #000000;
+}
